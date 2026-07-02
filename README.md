@@ -10,7 +10,6 @@ A simple RESTful API built with Node.js and Express that manages a Todo list in 
 ## Technologies
 - Node.js
 - Express
-- JavaScript (CommonJS)
 
 ## Installation
 
