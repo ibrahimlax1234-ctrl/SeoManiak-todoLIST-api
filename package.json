@@ -1,0 +1,17 @@
+{
+  "name": "seomaniak-api",
+  "version": "1.0.0",
+  "description": "mini RESTful Todo API built with Node.js and Express",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [],
+  "author": "Ibrahim Lakbir",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
