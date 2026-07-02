@@ -57,9 +57,11 @@ A simple RESTful API built with Node.js and Express that manages a Todo list in 
 
 ## Installation
 
-npm install
-npm start
-npm dev ( for debuging)
+- npm install
+
+- npm start
+
+- npm dev ( for debuging)
 
 ## API Routes
 
