@@ -69,9 +69,9 @@ npm dev ( for debuging)
 
 - POST /todos
 
--PUT /todos/:id
+- PUT /todos/:id
 
--DELETE /todos/:id
+- DELETE /todos/:id
 
 ## Example JSON
 
