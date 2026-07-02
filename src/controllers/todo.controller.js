@@ -50,7 +50,7 @@ function updateTodoById(req, res)
 
     if (req.body.completed !== undefined)
         todos[id].completed = req.body.completed;
-
+    res.status(200).send();
 }
 
 
@@ -65,6 +65,7 @@ function deleteTodoById(req, res)
     const deletedTodo = todos[id];
 
     todos.splice(id, 1);
+    res.status(200).send();
 }
 
 
