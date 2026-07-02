@@ -37,6 +37,8 @@ DELETE /todos/:id
 src/
     app.js
     server.js
-    routes/todo.routes.js
-    controllers/todo.controller.js
+    routes/
+            todo.routes.js
+    controllers/
+            todo.controller.js
     data.js
