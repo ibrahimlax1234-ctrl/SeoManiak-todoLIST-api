@@ -2,6 +2,8 @@
 
 let todos = require("../data");
 
+
+
 function postTodos(req, res)
 {
     const newTodo = {
@@ -11,14 +13,19 @@ function postTodos(req, res)
     };
 
     todos.push(newTodo);
-
-    res.status(201).json(newTodo);
+    res.status(201).send();
 }
+
+
+
 
 function getTodos(req, res)
 {
     res.json(todos);
 }
+
+
+
 
 function getTodoById(req, res)
 {
@@ -44,7 +51,6 @@ function updateTodoById(req, res)
     if (req.body.completed !== undefined)
         todos[id].completed = req.body.completed;
 
-    res.json(todos[id]);
 }
 
 
@@ -59,8 +65,6 @@ function deleteTodoById(req, res)
     const deletedTodo = todos[id];
 
     todos.splice(id, 1);
-
-    res.json(deletedTodo);
 }
 
 
