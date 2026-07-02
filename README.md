@@ -76,8 +76,8 @@ npm dev ( for debuging)
 ## Example JSON
 
 {
-    "title": "Study Express",
-    "completed" : "false",
+    "title": " todo Task",
+    "completed" : "false or true",
 }
 
 ## Project Structure
