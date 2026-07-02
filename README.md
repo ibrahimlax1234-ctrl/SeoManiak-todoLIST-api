@@ -34,11 +34,8 @@ DELETE /todos/:id
 
 ## Project Structure
 
-src/
-    app.js
-    server.js
-    routes/
-            todo.routes.js
-    controllers/
-            todo.controller.js
-    data.js
+src/app.js
+src/server.js
+src/routes/todo.routes.js
+src/controllers/todo.controller.js
+src/data.js
