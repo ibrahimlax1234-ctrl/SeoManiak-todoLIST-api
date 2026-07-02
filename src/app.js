@@ -1,9 +1,15 @@
+
 const express = require("express");
+
+
 const app = express();
+const routes = require("./routes/todo.routes");
+
 
 app.use(express.json());
+app.use(routes);
 
-app.use(require("./routes/todo.routes"));
+
 
 app.get("/", (req, res) => {
     res.json({
